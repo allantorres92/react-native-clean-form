@@ -17,9 +17,6 @@ const calculateFlexValue = (props) => {
     flex = props.numberOfLines + 1
   }
 
-  if (props.inlineLabel) {
-    flex = 0.5
-  }
 
   return (flex)
 }
